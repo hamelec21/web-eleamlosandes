@@ -9,7 +9,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-10"></div> {/* Optional pattern placeholder */}
         <div className="relative max-w-4xl mx-auto">
           <h1 className="text-5xl sm:text-6xl font-extrabold mb-6 text-secondary tracking-tight drop-shadow-sm">
-            Bienvenidos al Hogar de Ancianos
+            Bienvenidos a Eleam 
           </h1>
           <p className="text-xl sm:text-2xl mb-10 text-gray-100 font-light max-w-2xl mx-auto leading-relaxed">
             Un lugar donde el amor, el respeto y la dignidad son nuestra prioridad.

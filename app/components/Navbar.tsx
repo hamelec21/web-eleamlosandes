@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-bold tracking-wide">
-              Hogar de Ancianos
+              Eleam Los Andes
             </Link>
           </div>
           <div className="hidden md:block">

@@ -8,61 +8,90 @@ export default function Contactos() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Información de Contacto */}
         <div className="space-y-8">
-          <Card title="Información General">
-            <p className="mb-4">
-              Estamos disponibles para atender sus consultas y coordinar visitas a nuestros centros.
-            </p>
+          <Card title="Eleam Los Andes">
             <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="bg-primary text-white p-3 rounded-full mr-4">
+              <div className="flex items-start">
+                <div className="bg-primary text-white p-2 rounded-full mr-3 mt-1">
+                  📍
+                </div>
+                <div>
+                  <p className="font-bold text-gray-800">Ubicación</p>
+                  <p className="text-gray-600">Los Andes</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="bg-primary text-white p-2 rounded-full mr-3 mt-1">
                   📞
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500">Teléfono Central</p>
-                  <p className="font-bold text-lg">+56 9 1234 5678</p>
+                  <p className="font-bold text-gray-800">Teléfono</p>
+                  <p className="text-gray-600">34 2 637546</p>
                 </div>
               </div>
-              <div className="flex items-center">
-                <div className="bg-primary text-white p-3 rounded-full mr-4">
-                  ✉️
+              <div className="flex items-start">
+                <div className="bg-primary text-white p-2 rounded-full mr-3 mt-1">
+                  👥
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500">Correo Electrónico</p>
-                  <p className="font-bold text-lg">contacto@hogardeancianos.cl</p>
-                </div>
-              </div>
-              <div className="flex items-center">
-                <div className="bg-primary text-white p-3 rounded-full mr-4">
-                  ⏰
-                </div>
-                <div>
-                  <p className="text-sm text-gray-500">Horario de Atención</p>
-                  <p className="font-bold text-lg">Lunes a Viernes: 9:00 - 18:00</p>
+                  <p className="font-bold text-gray-800">Dirección</p>
+                  <p className="text-sm text-gray-600">Directora: Hna. Luisa Vásquez</p>
+                  <p className="text-sm text-gray-600">Director Técnico: Sergio Vasquez</p>
                 </div>
               </div>
             </div>
           </Card>
 
-          <Card title="Ubicaciones">
-            <div className="space-y-6">
-              <div>
-                <h4 className="font-bold text-primary mb-1">Centro Norte</h4>
-                <p className="text-gray-600">Av. Los Libertadores 1234, Sector Norte.</p>
+          <Card title="Eleam Quillota">
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <div className="bg-primary text-white p-2 rounded-full mr-3 mt-1">
+                  📍
+                </div>
+                <div>
+                  <p className="font-bold text-gray-800">Ubicación</p>
+                  <p className="text-gray-600">Quillota</p>
+                </div>
               </div>
-              <div>
-                <h4 className="font-bold text-primary mb-1">Centro Sur</h4>
-                <p className="text-gray-600">Calle El Roble 567, Sector Sur.</p>
+              <div className="flex items-start">
+                <div className="bg-primary text-white p-2 rounded-full mr-3 mt-1">
+                  📞
+                </div>
+                <div>
+                  <p className="font-bold text-gray-800">Teléfono</p>
+                  <p className="text-gray-600">33 2 254361</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="bg-primary text-white p-2 rounded-full mr-3 mt-1">
+                  👥
+                </div>
+                <div>
+                  <p className="font-bold text-gray-800">Dirección</p>
+                  <p className="text-sm text-gray-600">Directora: Hna. Camila Escorza</p>
+                  <p className="text-sm text-gray-600">Director Técnico: Raul Santibañez</p>
+                </div>
               </div>
             </div>
           </Card>
+          
+          <div className="bg-neutral-light p-4 rounded-lg border border-gray-200">
+             <p className="text-center text-gray-600 text-sm">
+               <strong>Horario de Atención General:</strong><br/>
+               Lunes a Viernes: 9:00 - 18:00
+             </p>
+             <p className="text-center text-gray-600 text-sm mt-2">
+               <strong>Correo Electrónico:</strong><br/>
+               contacto@eleam.cl
+             </p>
+          </div>
         </div>
 
         {/* Mapa (Placeholder) */}
-        <div className="bg-gray-200 rounded-lg min-h-[400px] flex items-center justify-center">
+        <div className="bg-gray-200 rounded-lg min-h-[400px] flex items-center justify-center shadow-inner">
           <div className="text-center">
             <span className="text-4xl mb-2 block">🗺️</span>
-            <span className="text-gray-500 font-medium">[Mapa de Ubicación]</span>
-            <p className="text-sm text-gray-400 mt-2">Aquí iría un mapa interactivo de Google Maps</p>
+            <span className="text-gray-500 font-medium">[Mapa de Ubicaciones]</span>
+            <p className="text-sm text-gray-400 mt-2">Mapa interactivo con Los Andes y Quillota</p>
           </div>
         </div>
       </div>

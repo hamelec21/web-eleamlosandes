@@ -31,10 +31,10 @@ export default function Transparencia() {
         En cumplimiento con nuestros valores, ponemos a disposición pública la documentación relevante de nuestra gestión para cada uno de nuestros centros.
       </p>
 
-      {/* Centro Norte Section */}
+      {/* Eleam Los Andes Section */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold text-primary mb-8 border-b-2 border-secondary pb-2 inline-block">
-          Eleam Virgen de los Dolores 
+          Eleam Los Andes
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {commonCategories.map((category, index) => (
@@ -46,7 +46,7 @@ export default function Transparencia() {
                       📄
                     </span>
                     <span className="text-sm text-gray-700 group-hover:text-primary transition-colors">
-                      {item} (Norte)
+                      {item}
                     </span>
                   </li>
                 ))}
@@ -56,10 +56,10 @@ export default function Transparencia() {
         </div>
       </div>
 
-      {/* Centro Sur Section */}
+      {/* Eleam Quillota Section */}
       <div>
         <h2 className="text-3xl font-bold text-primary mb-8 border-b-2 border-secondary pb-2 inline-block">
-          Eleam Rosa Krayer
+          Eleam Quillota
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {commonCategories.map((category, index) => (
@@ -71,7 +71,7 @@ export default function Transparencia() {
                       📄
                     </span>
                     <span className="text-sm text-gray-700 group-hover:text-primary transition-colors">
-                      {item} (Sur)
+                      {item}
                     </span>
                   </li>
                 ))}

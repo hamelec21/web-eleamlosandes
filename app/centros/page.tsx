@@ -9,44 +9,50 @@ export default function Centros() {
       </p>
 
       <div className="space-y-16">
-        {/* Centro 1 */}
+        {/* Eleam Los Andes */}
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2 h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-             <span className="text-gray-400 italic">[Foto Centro Norte]</span>
+             <span className="text-gray-400 italic">[Foto Eleam Los Andes]</span>
           </div>
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Virgen de los Dolores </h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Los Andes</h2>
+            <div className="mb-6 text-gray-700 space-y-1">
+              <p><span className="font-semibold">Directora:</span> Hermana Luisa Vásquez</p>
+              <p><span className="font-semibold">Director Técnico:</span> Sergio Vasquez</p>
+              <p><span className="font-semibold">Fono:</span> 34 2 637546</p>
+            </div>
             <p className="text-gray-700 mb-6">
-              Ubicado en un entorno tranquilo, el Centro Norte se especializa en cuidados de alta complejidad. 
-              Cuenta con amplios jardines, salas de terapia física y habitaciones adaptadas para garantizar la comodidad y seguridad.
+              Ubicado en Los Andes, este centro se especializa en cuidados integrales con un enfoque en la dignidad y el respeto.
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 mb-6">
-              <li>Capacidad para 40 residentes</li>
-              <li>Enfermería 24/7</li>
-              <li>Áreas verdes recreativas</li>
-              <li>Comedor asistido</li>
+              <li>Atención personalizada</li>
+              <li>Enfermería y cuidado técnico</li>
+              <li>Áreas verdes y recreación</li>
             </ul>
           </div>
         </div>
 
         <hr className="border-gray-200" />
 
-        {/* Centro 2 */}
+        {/* Eleam Quillota */}
         <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
           <div className="w-full md:w-1/2 h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-             <span className="text-gray-400 italic">[Foto Centro Sur]</span>
+             <span className="text-gray-400 italic">[Foto Eleam Quillota]</span>
           </div>
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Rosa Krayer</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Quillota</h2>
+            <div className="mb-6 text-gray-700 space-y-1">
+              <p><span className="font-semibold">Directora:</span> Hermana Camila Escorza</p>
+              <p><span className="font-semibold">Director Técnico:</span> Raul Santibañez</p>
+              <p><span className="font-semibold">Fono:</span> 33 2 254361</p>
+            </div>
             <p className="text-gray-700 mb-6">
-              El Centro Sur está diseñado para adultos mayores autovalentes o con dependencia leve. 
-              Ofrece un ambiente dinámico con múltiples actividades sociales, talleres y salidas culturales.
+              Nuestro centro en Quillota ofrece un ambiente acogedor y dinámico, ideal para el bienestar de nuestros residentes.
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 mb-6">
-              <li>Capacidad para 30 residentes</li>
-              <li>Talleres ocupacionales diarios</li>
-              <li>Habitaciones individuales y compartidas</li>
-              <li>Gimnasio geriátrico</li>
+              <li>Talleres y actividades diarias</li>
+              <li>Espacios comunes amplios</li>
+              <li>Equipo profesional multidisciplinario</li>
             </ul>
           </div>
         </div>
