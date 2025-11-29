@@ -31,11 +31,14 @@ export default function Transparencia() {
         En cumplimiento con nuestros valores, ponemos a disposición pública la documentación relevante de nuestra gestión para cada uno de nuestros centros.
       </p>
 
-      {/* Eleam Los Andes Section */}
+      {/* Eleam Virgen de los Dolores (Los Andes) Section */}
       <div className="mb-16">
-        <h2 className="text-3xl font-bold text-primary mb-8 border-b-2 border-secondary pb-2 inline-block">
-          Eleam Los Andes
+        <h2 className="text-3xl font-bold text-primary mb-2">
+          Eleam Virgen de los Dolores
         </h2>
+        <p className="text-gray-500 font-semibold mb-8 uppercase tracking-wide border-b-2 border-secondary pb-2 inline-block">
+          Los Andes
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {commonCategories.map((category, index) => (
             <Card key={`norte-${index}`} title={category.title} className="h-full">
@@ -56,11 +59,14 @@ export default function Transparencia() {
         </div>
       </div>
 
-      {/* Eleam Quillota Section */}
+      {/* Eleam Rosa Krayer (Quillota) Section */}
       <div>
-        <h2 className="text-3xl font-bold text-primary mb-8 border-b-2 border-secondary pb-2 inline-block">
-          Eleam Quillota
+        <h2 className="text-3xl font-bold text-primary mb-2">
+          Eleam Rosa Krayer
         </h2>
+        <p className="text-gray-500 font-semibold mb-8 uppercase tracking-wide border-b-2 border-secondary pb-2 inline-block">
+          Quillota
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {commonCategories.map((category, index) => (
             <Card key={`sur-${index}`} title={category.title} className="h-full">

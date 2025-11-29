@@ -8,7 +8,7 @@ export default function Contactos() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Información de Contacto */}
         <div className="space-y-8">
-          <Card title="Eleam Los Andes">
+          <Card title="Eleam Virgen de los Dolores">
             <div className="space-y-4">
               <div className="flex items-start">
                 <div className="bg-primary text-white p-2 rounded-full mr-3 mt-1">
@@ -41,7 +41,7 @@ export default function Contactos() {
             </div>
           </Card>
 
-          <Card title="Eleam Quillota">
+          <Card title="Eleam Rosa Krayer">
             <div className="space-y-4">
               <div className="flex items-start">
                 <div className="bg-primary text-white p-2 rounded-full mr-3 mt-1">

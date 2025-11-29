@@ -9,13 +9,14 @@ export default function Centros() {
       </p>
 
       <div className="space-y-16">
-        {/* Eleam Los Andes */}
+        {/* Eleam Virgen de los Dolores (Los Andes) */}
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2 h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-             <span className="text-gray-400 italic">[Foto Eleam Los Andes]</span>
+             <span className="text-gray-400 italic">[Foto Eleam Virgen de los Dolores]</span>
           </div>
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Los Andes</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Virgen de los Dolores</h2>
+            <p className="text-sm text-gray-500 font-semibold mb-4 uppercase tracking-wide">Los Andes</p>
             <div className="mb-6 text-gray-700 space-y-1">
               <p><span className="font-semibold">Directora:</span> Hermana Luisa Vásquez</p>
               <p><span className="font-semibold">Director Técnico:</span> Sergio Vasquez</p>
@@ -34,13 +35,14 @@ export default function Centros() {
 
         <hr className="border-gray-200" />
 
-        {/* Eleam Quillota */}
+        {/* Eleam Rosa Krayer (Quillota) */}
         <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
           <div className="w-full md:w-1/2 h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-             <span className="text-gray-400 italic">[Foto Eleam Quillota]</span>
+             <span className="text-gray-400 italic">[Foto Eleam Rosa Krayer]</span>
           </div>
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Quillota</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Rosa Krayer</h2>
+            <p className="text-sm text-gray-500 font-semibold mb-4 uppercase tracking-wide">Quillota</p>
             <div className="mb-6 text-gray-700 space-y-1">
               <p><span className="font-semibold">Directora:</span> Hermana Camila Escorza</p>
               <p><span className="font-semibold">Director Técnico:</span> Raul Santibañez</p>
