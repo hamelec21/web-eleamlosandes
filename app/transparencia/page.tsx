@@ -34,7 +34,7 @@ export default function Transparencia() {
       {/* Centro Norte Section */}
       <div className="mb-16">
         <h2 className="text-3xl font-bold text-primary mb-8 border-b-2 border-secondary pb-2 inline-block">
-          Centro Norte
+          Eleam Virgen de los Dolores 
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {commonCategories.map((category, index) => (
@@ -59,7 +59,7 @@ export default function Transparencia() {
       {/* Centro Sur Section */}
       <div>
         <h2 className="text-3xl font-bold text-primary mb-8 border-b-2 border-secondary pb-2 inline-block">
-          Centro Sur
+          Eleam Rosa Krayer
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {commonCategories.map((category, index) => (

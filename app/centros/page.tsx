@@ -15,7 +15,7 @@ export default function Centros() {
              <span className="text-gray-400 italic">[Foto Centro Norte]</span>
           </div>
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-primary mb-4">Centro Norte</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Virgen de los Dolores </h2>
             <p className="text-gray-700 mb-6">
               Ubicado en un entorno tranquilo, el Centro Norte se especializa en cuidados de alta complejidad. 
               Cuenta con amplios jardines, salas de terapia física y habitaciones adaptadas para garantizar la comodidad y seguridad.
@@ -37,7 +37,7 @@ export default function Centros() {
              <span className="text-gray-400 italic">[Foto Centro Sur]</span>
           </div>
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-primary mb-4">Centro Sur</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">Eleam Rosa Krayer</h2>
             <p className="text-gray-700 mb-6">
               El Centro Sur está diseñado para adultos mayores autovalentes o con dependencia leve. 
               Ofrece un ambiente dinámico con múltiples actividades sociales, talleres y salidas culturales.
