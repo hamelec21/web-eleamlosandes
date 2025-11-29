@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Paleta de colores */
+  --color-primary: #8c0052; /* Nuevo color principal (Burgundy) */
+  --color-primary-dark: #600038; /* Burgundy oscuro */
+  --color-secondary: #E8C547; /* Dorado suave */
+  --color-neutral-light: #F3F4F6; /* Fondo general */
+  --color-neutral-warm: #FAF7F0; /* Cards / secciones */
+  --color-neutral-medium: #6B7280; /* Texto secundario */
+  --color-accent-optional: #C7DAD3; /* Verde agua */
+  
+  --background: var(--color-neutral-light);
+  --foreground: #1f2937; /* Gray-800 for better readability */
 }
 
 @theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-secondary: var(--color-secondary);
+  --color-neutral-light: var(--color-neutral-light);
+  --color-neutral-warm: var(--color-neutral-warm);
+  --color-neutral-medium: var(--color-neutral-medium);
+  --color-accent-optional: var(--color-accent-optional);
+  
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif; /* Using a modern font if available, otherwise fallback */
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  letter-spacing: -0.025em; /* Tight tracking for modern look */
+}
+
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+}
+
