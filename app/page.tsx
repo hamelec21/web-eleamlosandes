@@ -8,7 +8,7 @@ export default function Home() {
       <section className="relative bg-gradient-to-br from-primary-dark via-primary to-primary-dark text-white py-24 px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
         <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-10"></div> {/* Optional pattern placeholder */}
         <div className="relative max-w-4xl mx-auto">
-          <h1 className="text-5xl sm:text-6xl font-extrabold mb-6 text-secondary tracking-tight drop-shadow-sm">
+          <h1 className="text-5xl sm:text-6xl font-extrabold mb-6 tracking-tight drop-shadow-sm !text-white">
             Bienvenidos a Eleam 
           </h1>
           <p className="text-xl sm:text-2xl mb-10 text-gray-100 font-light max-w-2xl mx-auto leading-relaxed">
