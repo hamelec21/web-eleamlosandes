@@ -1,4 +1,5 @@
 import Card from "../components/Card";
+import Image from "next/image";
 
 export default function Centros() {
   return (
@@ -11,8 +12,13 @@ export default function Centros() {
       <div className="space-y-16">
         {/* Eleam Virgen de los Dolores (Los Andes) */}
         <div className="flex flex-col md:flex-row gap-8 items-center">
-          <div className="w-full md:w-1/2 h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-             <span className="text-gray-400 italic">[Foto Eleam Virgen de los Dolores]</span>
+          <div className="w-full md:w-1/2 relative h-64 rounded-lg overflow-hidden shadow-lg">
+             <Image 
+               src="/img/eleam-losandes.jpg" 
+               alt="Eleam Virgen de los Dolores" 
+               fill
+               className="object-cover"
+             />
           </div>
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold text-primary mb-4">Eleam Virgen de los Dolores</h2>
@@ -37,8 +43,13 @@ export default function Centros() {
 
         {/* Eleam Rosa Krayer (Quillota) */}
         <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
-          <div className="w-full md:w-1/2 h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-             <span className="text-gray-400 italic">[Foto Eleam Rosa Krayer]</span>
+          <div className="w-full md:w-1/2 relative h-64 rounded-lg overflow-hidden shadow-lg">
+             <Image 
+               src="/img/eleam-quillota.jpg" 
+               alt="Eleam Rosa Krayer" 
+               fill
+               className="object-cover"
+             />
           </div>
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold text-primary mb-4">Eleam Rosa Krayer</h2>
