@@ -30,15 +30,14 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-300">
               <li className="flex items-start">
                 <span className="mr-2">📍</span>
-                <span>Calle Principal 123, Ciudad</span>
-              </li>
-              <li className="flex items-center">
-                <span className="mr-2">📞</span>
-                <span>+56 9 1234 5678</span>
+                <span className="flex flex-col">
+                  <span>Eleam Los Andes: Tres Carrera Nº130. Casilla Nº 238 Los Andes.</span>
+                  <span className="mt-1">Eleam Quillota: San Martín 460, Quillota, Valparaíso</span>
+                </span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">✉️</span>
-                <span>contacto@hogardeancianos.cl</span>
+                <span>eleam136@gmail.com</span>
               </li>
             </ul>
           </div>

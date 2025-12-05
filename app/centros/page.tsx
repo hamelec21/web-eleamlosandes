@@ -23,6 +23,7 @@ export default function Centros() {
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold text-primary mb-4">Eleam Virgen de los Dolores</h2>
             <p className="text-sm text-gray-500 font-semibold mb-4 uppercase tracking-wide">Los Andes</p>
+            <p className="text-gray-600 mb-4">Tres Carrera Nº130. Casilla Nº 238 Los Andes.</p>
             <div className="mb-6 text-gray-700 space-y-1">
               <p><span className="font-semibold">Directora:</span> Hermana Luisa Vásquez</p>
               <p><span className="font-semibold">Director Técnico:</span> Sergio Vasquez</p>
@@ -54,6 +55,7 @@ export default function Centros() {
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold text-primary mb-4">Eleam Rosa Krayer</h2>
             <p className="text-sm text-gray-500 font-semibold mb-4 uppercase tracking-wide">Quillota</p>
+            <p className="text-gray-600 mb-4">San Martín 460, Quillota, Valparaíso</p>
             <div className="mb-6 text-gray-700 space-y-1">
               <p><span className="font-semibold">Directora:</span> Hermana Camila Escorza</p>
               <p><span className="font-semibold">Director Técnico:</span> Raul Santibañez</p>

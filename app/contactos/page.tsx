@@ -5,7 +5,7 @@ export default function Contactos() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-4xl font-bold text-primary-dark mb-8 text-center">Contáctanos</h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div className="max-w-4xl mx-auto">
         {/* Información de Contacto */}
         <div className="space-y-8">
           <Card title="Eleam Virgen de los Dolores">
@@ -16,7 +16,7 @@ export default function Contactos() {
                 </div>
                 <div>
                   <p className="font-bold text-gray-800">Ubicación</p>
-                  <p className="text-gray-600">Los Andes</p>
+                  <p className="text-gray-600">Tres Carrera Nº130. Casilla Nº 238 Los Andes.</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -49,7 +49,7 @@ export default function Contactos() {
                 </div>
                 <div>
                   <p className="font-bold text-gray-800">Ubicación</p>
-                  <p className="text-gray-600">Quillota</p>
+                  <p className="text-gray-600">San Martín 460, Quillota, Valparaíso</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -83,15 +83,6 @@ export default function Contactos() {
                <strong>Correo Electrónico:</strong><br/>
                contacto@eleam.cl
              </p>
-          </div>
-        </div>
-
-        {/* Mapa (Placeholder) */}
-        <div className="bg-gray-200 rounded-lg min-h-[400px] flex items-center justify-center shadow-inner">
-          <div className="text-center">
-            <span className="text-4xl mb-2 block">🗺️</span>
-            <span className="text-gray-500 font-medium">[Mapa de Ubicaciones]</span>
-            <p className="text-sm text-gray-400 mt-2">Mapa interactivo con Los Andes y Quillota</p>
           </div>
         </div>
       </div>
